@@ -140,9 +140,9 @@ interface PageDescription {
 	about?: string
 }
 export const pageDescription: PageDescription = {
-	index: '我是陈熙，一个拥有超过5年经验的创意设计师和开发人员，在这里可以了解更多关于我的信息，或者阅读我的一些文章和笔记。',
+	index: '我是Wynn，一个拥有超过5年经验的创意设计师，在这里可以了解更多关于我的信息，或者阅读我的一些文章和笔记。',
 	project: "这是我的部分项目展示",
-	about: '专注于产品、品牌、UI设计和视觉开发',
+	about: '专注于平面、品牌、广告设计和视觉开发',
 	blog: '这是我的个人笔记和想法， 希望你能够获得帮助！',
 }
 
