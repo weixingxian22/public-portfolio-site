@@ -140,9 +140,9 @@ interface PageDescription {
 	about?: string
 }
 export const pageDescription: PageDescription = {
-	index: '我是Wynn，一个拥有超过5年经验的创意设计师，在这里可以了解更多关于我的信息，或者阅读我的一些文章和笔记。',
+	index: '我是Wynn，一位拥有超过5年经验的创意设计师，在这里可以了解更多关于我的信息，或者阅读我的一些文章和笔记。',
 	project: "这是我的部分项目展示",
-	about: '专注于平面、品牌、广告设计和视觉开发',
+	about: '专注于平面、品牌、广告设计和视觉创意',
 	blog: '这是我的个人笔记和想法， 希望你能够获得帮助！',
 }
 
@@ -155,11 +155,12 @@ export interface FilterItem {
 }
 export const filterItems: FilterItem[] = [
 	{ content: "💎推荐", dataGroup: "recommend" },
-	{ content: "网页", dataGroup: "web" },
-	{ content: "UI", dataGroup: "ui" },
-	{ content: "3D", dataGroup: "3d" },
-	{ content: "摄影", dataGroup: "photography" },
 	{ content: "品牌", dataGroup: "brand" },
+	{ content: "平面", dataGroup: "graphic" },
+	{ content: "网页", dataGroup: "web" },
+	{ content: "书刊画册", dataGroup: "book" },
+	{ content: "活动", dataGroup: "event },
+
 ];
 
 
