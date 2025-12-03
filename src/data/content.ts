@@ -155,12 +155,11 @@ export interface FilterItem {
 }
 export const filterItems: FilterItem[] = [
 	{ content: "💎推荐", dataGroup: "recommend" },
+	{ content: "书刊画册", dataGroup: "book" },
 	{ content: "品牌", dataGroup: "brand" },
 	{ content: "平面", dataGroup: "graphic" },
 	{ content: "网页", dataGroup: "web" },
-	{ content: "书刊画册", dataGroup: "book" },
 	{ content: "活动", dataGroup: "event" },
-
 ];
 
 
